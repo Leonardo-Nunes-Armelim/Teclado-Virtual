@@ -1,0 +1,33 @@
+div {
+    text-align: center;
+}
+.window {
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    margin: 25px;
+}
+.key {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    margin: 5px;
+}
+.key-space {
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    margin: 5px;
+}
+.key:hover {
+    background-color: grey;
+}
+.key-space:hover {
+    background-color: grey;
+}
